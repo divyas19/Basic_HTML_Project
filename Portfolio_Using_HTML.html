@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>HTML Project</title>
+</head>
+<body>
+    <!--Start Header-->
+                <table border="0" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#f3971b">
+                    <tr>
+                        <td>
+                            <font face="arial" color="#000000" size="5">
+                                Your Name
+                            </font>
+                        </td>
+                        <td>
+                            <font face="arial" color="#000000" size="5">
+                                <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                                <a href="#">Email</a>
+                               
+                            </font>
+                        </td>
+                  
+                        <td>
+                            <font face="arial" color="#000000" size="5">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                <a href="#">LinkedIn</a>
+                            </font>
+                        </td>
+                        <td>
+                            <font face="arial" color="#000000" size="5">
+                                <span class="fa fa-github" aria-hidden="true"></span>
+                                <a href="#">GitHub</a>
+                            </font>
+                        </td>
+                        <td>
+                            <font face="arial" color="#000000" size="5">
+                                <span class="fa fa-phone" aria-hidden="true"></span>
+                               Phone
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+    <!--End Header-->
+
+
+    <!--Start About Me-->
+                <table id="about me" border="0" width="100%" cellpadding="15" cellspacing="5" align="center" bgcolor="#292929">
+                    <!-- Heading Start-->
+                    <tr align="center">
+                        <td  align="center" valign="middle">
+                                <font face="arial" color="#f3971b" size="6" align="center">
+                                     About Me
+                                </font>
+                                <hr width="140" color="#f3971b">
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr align="center">
+                        <td width="40%" align="center">
+                            <!-- <img src="images/me1.png" alt="My Image"  width="90%"> -->
+                            
+                                <img src="data:image/png;base64,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" alt="Image">
+                            
+                        </td>
+                        <td >
+                            <font face="arial" color="#f3971b" size="4">
+                                <h2>
+                                    I am a passionate Programmer
+                                </h2>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora laudantium ea consequuntur nemo fugiat consequatur a ducimus amet fugit cupiditate quos placeat perferendis maiores explicabo voluptates similique nisi reiciendis, quas quis doloremque cumque, labore quo ipsum eligendi! Eius totam nemo facere nisi quas eaque corrupti voluptate esse dicta, voluptates quos odit qui eligendi est beatae impedit asperiores magnam! Eligendi officiis architecto aperiam, voluptatum iure optio debitis id nihil reprehenderit similique, esse incidunt blanditiis odio eos sequi perferendis non, repellat soluta qui asperiores! Dolorem temporibus rem aut quaerat quas fugiat reiciendis quam dicta, in a possimus est voluptates, ratione eaque amet.
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+    <!--End About Me-->
+
+    <!--Start Education-->
+                <table id="education" border="0" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#c2c0c3">
+                    <!-- Heading Start-->
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="3">
+                                <font face="arial" color="#292929" size="6">
+                                     Education
+                                </font>
+                                <hr width="140" color="#292929">
+                        
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr>
+                        <td width="33.3%" >
+                            <b>Name of College |City, State<br></b>
+                            Degree | Branch<br>
+                            mm/yyyy - Present, 
+                        </td>
+                   
+                        <td width="33.3%" >
+                            <b>Name of School | City, State<br></b>
+                            Higher Secondary Certificate<br>
+                            mm/yyyy - mm/yyyy, Percentage
+                        </td>
+                   
+                        <td width="33.3%" >
+                        <b>Name of School | City, State<br></b>
+                            Secondary School Certificate<br>
+                            mm/yyyy - mm/yyyy, CGPA
+                        </td>
+                    </tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+    <!--End Education-->
+
+    <!--Start Personal Projects-->
+                <table id="personal projects" border="0" width="100%" cellpadding="15" cellspacing="0" align="center">
+                    <!-- Heading Start-->
+                    <tr>
+                        <td height="150" align="center"  colspan="3">
+                                <font face="arial" color="#f3971b" size="6">
+                                     Personal Projects
+                                </font>
+                                <hr width="250" color="#f3971b">
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr>
+                        <td width="33%" valign="top">
+                            <font face="arial" color="#c2c0c3">
+                                <h3 align="center"><b>Project 1</b></h3>
+                            </font>
+                            <font face="arial" color="#c2c0c3">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda laudantium ex aperiam quas dolor molestias, nemo ipsam voluptates hic animi minima earum sit accusamus minus!
+                            </font>
+                        </td>
+                        <td width="33%" valign="top">
+                            <font face="arial" color="#c2c0c3">
+                                <h3 align="center"><b>Project 2</b></h3>
+                            </font>
+                            <font face="arial" color="#c2c0c3">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda laudantium ex aperiam quas dolor molestias, nemo ipsam voluptates hic animi minima earum sit accusamus minus!
+                            </font>
+                        </td>
+                        <td width="33%" valign="top">
+                            <font face="arial" color="#c2c0c3">
+                                <h3 align="center"><b>Project 3</b></h3>
+                            </font>
+                            <font face="arial" color="#c2c0c3">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda laudantium ex aperiam quas dolor molestias, nemo ipsam voluptates hic animi minima earum sit accusamus minus!
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+    <!--End Personal Projects-->
+
+    <!--Start Skills-->
+    <table id="skills" border="0" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#353535">
+        <tr>
+            <td height="140" align="center" valign="middle" colspan="6">
+                    <font face="arial" color="#f3971b" size="6">
+                         Skills
+                    </font>
+                    <hr width="70" color="#f3971b">
+            
+            </td>
+        </tr> 
+        <tr>
+            <td >
+                <font face="arial" color="#f3971b" size="5">
+                    Skill1
+                </font>
+                
+            </td>
+            <td >
+                <font face="arial" color="#f3971b" size="5">
+                    Skill2
+                </font>
+                
+            </td>
+            <td >
+                <font face="arial" color="#f3971b" size="5">
+                    Skill3
+                </font>
+                
+            </td>
+            <td>
+                <font face="arial" color="#f3971b" size="5">
+                    Skill4
+                </font>
+                
+            </td>
+        </tr>
+        <tr>
+            <td width="25%" valign="top">
+                <font face="arial" color="#f3971b" size="5">
+                    Skill5
+                </font>
+                
+            </td>
+            <td width="25%" valign="top">
+                <font face="arial" color="#f3971b" size="5">
+                    Skill6
+                </font>
+                
+            </td>
+            <td width="25%" valign="top">
+                <font face="arial" color="#f3971b" size="5">
+                    Skill7
+                </font>
+                
+            </td>
+            <td width="25%" valign="top">
+                <font face="arial" color="#f3971b" size="5">
+                    Skill8
+                </font>
+                
+            </td>
+        </tr>
+        <tr>
+            <td >
+                &nbsp;
+            </td>
+        </tr>
+<!--End Personal Projects-->
+
+    <!--Start Certificates-->
+                <table border="0" id="certificates" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#c2c0c3">
+                    <!-- Heading Start-->
+                    <tr>
+                        <td height="140" align="center" valign="middle" colspan="2">
+                                <font face="arial" color="#292929" size="6">
+                                     Certificates
+                                </font>
+                                <hr width="150" color="#292929">
+                        
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr >
+                        <td width="66%" valign="top" >
+                           <font face="arial" color="#292929">
+                            <ol>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sint nesciunt voluptates autem minima sed accusantium consequatur inventore nobis aspernatur?</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, non.</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis excepturi ullam distinctio.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas vitae eveniet pariatur deleniti eius, mollitia fugiat.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, id!</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam sequi voluptatibus hic optio provident!</li>
+                            </ol>
+                           </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+    <!--End Certificates-->
+
+     <!--Start Co-Curricular Activities-->
+     <table border="0" id="co-curricular activities" width="100%" cellpadding="15" cellspacing="0" align="center" >
+        <!-- Heading Start-->
+        <tr>
+            <td height="140" align="center" valign="middle" colspan="2">
+                    <font face="arial" size="6">
+                        Co-Curricular Activities 
+                    </font>
+                    <hr width="320" >
+            
+            </td>
+        </tr>
+        <!--Heading End-->
+        <tr >
+            <td width="66%" valign="top" >
+               <font face="arial" color="#292929">
+                <ol >
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sint nesciunt voluptates autem minima sed accusantium consequatur inventore nobis aspernatur?</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, non.</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis excepturi ullam distinctio.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas vitae eveniet pariatur deleniti eius, mollitia fugiat.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, id!</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam sequi voluptatibus hic optio provident!</li>
+                </ol>
+               </font>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+<!--End Co-Curricular Activities-->
+    
+    <!--Start Languages-->
+    <table id="Languages" border="0" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#c2c0c3">
+        <!-- Heading Start-->
+        <tr>
+            <td height="180" align="center"  colspan="3">
+                    <font face="arial" color="#292929" size="6">
+                         Languages
+                    </font>
+                    <hr width="160" color="#292929">
+            
+            </td>
+        </tr>
+        <!--Heading End-->
+        <tr>
+            <td width="33%" valign="top">
+                <font face="arial" color="#292929">
+                        <ul >
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam sequi voluptatibus hic optio provident!</li>
+                        </ul>
+                </font>
+            </td>
+            <td width="33%" valign="top">
+                <font face="arial" color="#292929">
+                    <ul >
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam sequi voluptatibus hic optio provident!</li>
+                    </ul>
+            </font>
+            </td>
+            <td width="33%" valign="top">
+                <font face="arial" color="#292929">
+                    <ul >
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam sequi voluptatibus hic optio provident!</li>
+                    </ul>
+            </font>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+<!--End Languages-->
+
+<!-- Start Interests -->
+<table id="Interests" align="center" border="0" width="100%" cellpading="15" cellspacing ="0">
+    <tr>
+       <!--Heading Start-->
+        <td height="180" align="center" colspan="20">
+             <font face="arial" size="6">
+                Interests
+                <hr width="120"> 
+            </font>
+             </td>
+             <!--Heading End-->
+    </tr>
+    <tr>
+        <td  size="4">
+            <font face="arial">
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+          </ul>
+          </font>
+        </td>
+        <td size="4">
+            <font face="arial">
+            <ul>
+                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+              </ul> 
+              </font>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<!-- End Interests -->
+
+
+</body>
+</html>
